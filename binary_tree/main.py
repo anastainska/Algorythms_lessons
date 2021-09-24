@@ -33,7 +33,6 @@ class Node:
         else:
             self.value = value
 
-# Print the tree
     def printtree(self):
         if self.left:
             self.left.printtree()
@@ -41,13 +40,13 @@ class Node:
         if self.right:
             self.right.printtree()
 
-# Use the insert method to add nodes
-root = Node(27)
-root.insert(14)
-root.insert(35)
-root.insert(31)
-root.insert(10)
-root.insert(19)
+
+root = Node(24)
+root.insert(17)
+root.insert(32)
+root.insert(30)
+root.insert(13)
+root.insert(18)
 
 
 root.printtree()
